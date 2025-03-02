@@ -91,8 +91,10 @@
           textContent ?
         </h1>
         <h3 class="text-2xl text-slate-400 p-8">
-          In JavaScript, there are several ways to select elements in the DOM
-          (Document Object Model). Here are the most common methods:
+          1 innerHTML. যদি এখানে HTML ট্যাগ দেওয়া হয়, সেটাকে HTML হিসেবে রেন্ডার
+          করে। 2 innerText.কোনো HTML ট্যাগ থাকলে সেটা টেক্সট হিসেবেই ধরে, HTML
+          হিসেবে নয়। 3 textContent.এটা এলিমেন্টের সম্পূর্ণ টেক্সট কনটেন্ট নেয় বা
+          সেট করে, এমনকি যেসব টেক্সট ওয়েবসাইটে দেখা যায় না, সেগুলোকেও।
         </h3>
       </div>
       <div class="bg-white mt-8">
@@ -100,8 +102,10 @@
           Question-3: What is event delegation in the DOM?
         </h1>
         <h3 class="text-2xl text-slate-400 p-8">
-          In JavaScript, there are several ways to select elements in the DOM
-          (Document Object Model). Here are the most common methods:
+          Event delegation হচ্ছে JavaScript-এর এক ধরণের টেকনিক যেখানে আমরা
+          parent element-এর মাধ্যমে child element-এর ইভেন্ট হ্যান্ডল করি। মানে,
+          অনেকগুলা child element-এর জন্য আলাদা আলাদা ইভেন্ট লিসেনার না দিয়ে,
+          একটাই parent element-এ ইভেন্ট লিসেনার সেট করি।
         </h3>
       </div>
       <div class="bg-white mt-8">
@@ -109,8 +113,10 @@
           Question-4: What is event bubbling in the DOM?
         </h1>
         <h3 class="text-2xl text-slate-400 p-8">
-          In JavaScript, there are several ways to select elements in the DOM
-          (Document Object Model). Here are the most common methods:
+          Event Bubbling হলো DOM-এ ইভেন্টের একধরনের propagation mechanism,
+          যেখানে ইভেন্টটি নিচ থেকে উপরে ওঠে — মানে, যেই element-এ ইভেন্ট ঘটে,
+          সেখান থেকে তার parent, তারপর তার parent… এভাবে পুরো DOM tree-তে উপরের
+          দিকে ছড়িয়ে পড়ে।
         </h3>
       </div>
       <div class="bg-white mt-8">
@@ -119,12 +125,9 @@
           JavaScript?
         </h1>
         <h3 class="text-2xl text-slate-400 p-8">
-          In JavaScript, there are several ways to select elements in the DOM
-          (Document Object Model). Here are the most common methods:
+          JavaScript দিয়ে element বানানোর জন্য document.createElement() ইউজ করি।
         </h3>
       </div>
     </div>
-    <!-- <script src="./js/mainpart.js"></script> -->
   </body>
 </html>
-<!-- -------------- -->
